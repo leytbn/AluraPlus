@@ -1,0 +1,160 @@
+:root {
+    --brancoPrincipal: #FFFFFF;
+    --cinzaSecundario: #C0C0C0;
+    --botaoAzul: #167BF7;
+    --botaoEfeito: #c6c6e7;
+    --corFundo: #00030C;
+    --fontePrincipal: 'Inter';
+}
+
+.body {
+    background-color: var(--corFundo);
+    color: var(--brancoPrincipal);
+    font-family: var(--fontePrincipal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.principal {
+    background-image: url(./img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.caixaContainer {
+   margin: 0 6em;
+
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.botaoContainer {
+    background-color: var(--botaoAzul);
+    border-radius: 8px;
+    padding: 1em;
+    text-decoration: none;
+    color: var(--brancoPrincipal);
+    display: block;
+    margin-bottom: 1em;
+}
+
+.botaoSecundario {
+   background-color: transparent;
+   border: 2px solid var(--brancoPrincipal);
+}
+
+.avisoContainer {
+    font-size: 12px;
+    color: var(--cinzaSecundario);
+}
+
+.tituloContainer {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.imagemContainer {
+    margin: 1em 0 2em 0;
+}   
+
+.imagemSecundario {
+    width: 80%;
+}
+
+.imagemNotebook {
+    width: 100%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricaoTitulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--brancoPrincipal);
+    margin-bottom: 0.2em;
+}
+
+.descricaoTexto {
+    color: var(--cinzaSecundario);
+    line-height: 25px;
+}
+
+.botaoAssinatura {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.descricaoContainer {
+    padding: 2em;
+}
+
+.dispositivos {
+    text-align: center;
+    font-weight: bold;
+}
+
+.tituloDispositivos {
+    font-weight: bold;
+    font-size: 48px;
+    color: var(--brancoPrincipal);
+}
+
+.listaDispositivos {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    color: var(--brancoPrincipal);
+    margin: 2em 0 4em 0;
+}
+
+.logoRodape {
+    justify-content: center;
+    padding: 0 0 2em 50%;
+}
+
+.listaRodape {
+    display: flex;
+    justify-content: center;
+
+}
+
+.listaLink {
+    margin: 1em 0.7em;
+}
+
+.listaLink a {
+    color: var(--brancoPrincipal);
+    text-decoration: none;
+    
+}
+
+.listaLink a:hover {
+    color: var(--botaoAzul);
+}
+
+.listaLink a:active {
+    color: var(--botaoEfeito);
+}
+
+.textoRodape {
+    text-align: center;
+    color: var(--cinzaSecundario);
+    font-size: 14px;
+    margin: 0 1em 1em 0.5em;
+    line-height: 25px;
+}
+
+.botaoContainer:hover {
+    background-color: var(--botaoEfeito);
+    color: var(--corFundo);
+}
